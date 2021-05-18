@@ -1,0 +1,5 @@
+package com.finalproject.grocery.service;
+
+public class UserService {
+
+}
