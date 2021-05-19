@@ -1,0 +1,23 @@
+package service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import entity.AuthenticationToken;
+import repository.TokenRepository;
+
+@Service
+public class AuthenticationService {
+	
+	@Autowired
+	TokenRepository repository;
+	
+	
+	public void saveConformationToken(AuthenticationToken authenticationToken) {
+		
+		repository.save(authenticationToken);
+	}
+
+	
+	
+}

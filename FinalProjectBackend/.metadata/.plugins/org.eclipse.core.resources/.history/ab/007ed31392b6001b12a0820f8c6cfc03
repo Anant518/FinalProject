@@ -1,0 +1,5 @@
+package com.finalproject.grocery.repository;
+
+public class TokenRepository {
+
+}
